@@ -1,0 +1,13 @@
+[package]
+name = "broken_dlog"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num-bigint = "0.4.5"
+num-traits = "0.2.19"
+num-iter = "0.1.42"
+rayon = "1.10.0"
+sha3 = "0.10.8"
