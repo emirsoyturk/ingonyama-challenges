@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "C:/Users/ben/project_1/project_1.srcs/sim_1/new/mod_tb.v" --include "../../../../project_1.srcs/sim_1/new" \
+"../../../../project_1.srcs/sim_1/new/mod.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
